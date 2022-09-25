@@ -1,0 +1,15 @@
+<resources>
+    <!--    name viết liền, có thể sử dụng snake_case hoặc camelCase -->
+    <string name="app_name">My Application</string>
+    <string name="ho_ten">Nguyen Duc Anh Tuan</string>
+    <string name="lop">MOB1032.1</string>
+    <string name="dia_chi">Hà Nội</string>
+    <string name="btn_text_chuyen_huong">Chuyển sang InfoActivty</string>
+    <string name="info_tieu_de">Đây là InfoActivity</string>
+    <string name="info_ten">Nguyễn Văn A</string>
+    <string name="info_dia_chi">Ha Nam</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+</resources>

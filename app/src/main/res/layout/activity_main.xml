@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    Những thông tin cần thể hiện cho 1 TextView -->
+<!--    Tên thẻ/ Tên view-->
+<!--    chiều rộng, chiều cao phụ thuộc cái gì -->
+<!--    Nội dung hiển thị bên trong là gì-->
+<!--    Các vị trí ràng buộc: top, bottom, left, right-->
+    <!-- Tối thiểu 3 ràng buộc cho 1 thẻ/ 1 view-->
+
+<!--    id có cú pháp @+id/tên_id -->
+<!--    string nội dung @string/tên-->
+
+    <TextView
+        android:id="@+id/ho_ten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ho_ten"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.084" />
+
+    <TextView
+        android:id="@+id/lop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/lop"
+        android:textColor="#FF3D00"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ho_ten" />
+
+    <TextView
+        android:id="@+id/dia_chi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/dia_chi"
+        android:textColor="#0227FA"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lop" />
+
+    <Button
+        android:id="@+id/btn_chuyen_huong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/btn_text_chuyen_huong"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dia_chi" />
+
+    <!--    margin: ràng buộc 2 chiều với parent, 1 chiều margin với 1 view/thẻ khác-->
+<!--    màu sắc: color-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
