@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--    LinearLayout là loại layout dùng để bố trí các thành phần tự động sắp xếp theo chiều dọc/ngang-->
+<!--    Thuộc tính orientation thể hiện dọc hoặc ngang-->
+<!--    layout-gravity là thuộc tính để cân vị trí theo layout-->
+<!--    graviry là thuộc tính để cân vị trí theo kích thước của thẻ -->
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="30dp"
+        android:background="@color/teal_200"
+        android:text="ĐĂNG NHẬP" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+    >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+        />
+<!--   Làm thế nào để EditText tự co dãn theo kích thước màn hình???     -->
+        <EditText
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:hint="Chỉ được nhập email" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Nhập password tối thiểu 8 ký tự"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/login"
+    />
+
+</LinearLayout>
