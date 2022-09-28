@@ -32,25 +32,43 @@
         />
 <!--   Làm thế nào để EditText tự co dãn theo kích thước màn hình???     -->
         <EditText
-            android:layout_width="285dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="20dp"
             android:hint="Chỉ được nhập email" />
     </LinearLayout>
-
-    <EditText
-        android:layout_width="350dp"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nhập password tối thiểu 8 ký tự"
-        android:layout_gravity="center"
-        android:layout_marginBottom="20dp"
-    />
+        android:orientation="horizontal"
+        android:padding="10dp"
+    >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+        />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="Password tối thiểu 8 ký tự"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+        />
+    </LinearLayout>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="@string/login"
     />
-
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/san_pham"
+        android:layout_gravity="center"
+    />
 </LinearLayout>
