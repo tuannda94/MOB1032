@@ -14,4 +14,8 @@
     <string name="login">Login</string>
 
     <string name="lv_title">Danh sách sản phẩm</string>
+
+    <string name="clv_title">Danh sách sản phẩm đặc biệt</string>
+    <string name="clv_product_item_name">Tên sản phẩm</string>
+    <string name="clv_product_item_price">Giá tiền</string>
 </resources>

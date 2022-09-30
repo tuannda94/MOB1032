@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Đây là thể hiện giao diện của từng phần tử -->
+<!-- Mỗi phần tử sẽ có tên và giá -->
+<!-- Cần Adapter tương ứng để ghép phần tử này vào danh sách -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+    <TextView
+        android:id="@+id/clv_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clv_product_item_name"
+        android:textSize="25dp"
+    />
+    <TextView
+        android:id="@+id/clv_item_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clv_product_item_price"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+    />
+<!-- Phần tử sẽ là 1 Product có 2 thông tin là String name; double price   -->
+</LinearLayout>
