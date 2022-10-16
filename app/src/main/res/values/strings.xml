@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CRUD</string>
+
+<!--    List view -->
+    <string name="lv_title">Danh sách thành viên</string>
+    <string name="lv_btn_add">Thêm mới</string>
+    <string name="lv_btn_edit">Sửa</string>
+    <string name="lv_btn_del">Xoá</string>
+
+<!--    Dialog -->
+    <string name="dl_title_add">Thêm mới thành viên</string>
+    <string name="dl_title_edit">Chỉnh sửa thành viên</string>
+    <string name="dl_et_name">Tên</string>
+    <string name="dl_et_id">ID</string>
+    <string name="dl_btn_create">Tạo mới</string>
+    <string name="dl_btn_update">Cập nhật</string>
+</resources>

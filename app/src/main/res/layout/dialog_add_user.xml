@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dl_title_add"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+    />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/dl_et_name"
+        android:id="@+id/dl_add_et_name"
+        android:layout_margin="10dp"
+    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dl_btn_create"
+        android:id="@+id/dl_add_btn_create"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+    />
+</LinearLayout>

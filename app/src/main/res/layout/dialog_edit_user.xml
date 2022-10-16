@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dl_title_edit"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+    />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/dl_et_name"
+        android:layout_marginTop="10dp"
+        android:id="@+id/dl_edit_et_name"
+    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dl_btn_update"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/dl_edit_btn_update"
+    />
+</LinearLayout>
